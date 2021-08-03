@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100%;
+    font-family: 'Philosopher', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: #000022;
+    padding-right: 30px;
+    color: #fff;
+}
+.navbar ul{
+    list-style: none;
+    text-decoration: none;
+   
+}
+nav .name-title{
+    display: inline-flex;
+
+}
+.name-title li{
+    padding: 3px;
+    font-family: 'Merienda', cursive;
+    font-size: 24px;
+}
+ /* .name-title img{
+     width: 1.7rem;
+     height:1.7rem;
+ } */
+nav .nav-options{
+    display: inline-flex;
+}
+.nav-options li{
+    padding: 12px;
+    font-size: 22px;
+}
+.top-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #FBF5F3;
+}
+.top-container img{
+    width: 40%;
+    height: 40%;
+
+}
+.top-title{
+    margin-top: -20px;
+    font-style: italic;
+}
+.technologies {
+    text-align: center;
+    background: #EBE9E9;
+    padding: 40px;
+}
+h1{
+    font-size: 42px;
+}
+p{
+    font-size: 28px;
+}
+.skill-list{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+}
+.skill-list li{
+    padding: 4px;
+}
+.tailwind{
+    margin-top: 8px;
+    }
+.projects{
+    text-align: center;
+    padding: 40px;
+    background: #FBF5F3;
+}
+.btn {
+    font-size: 14px;
+    width: 120px;
+    height: 45px;
+    background-color: #E28413;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.blogs{
+    text-align: center;
+    padding: 40px;
+    background: #EBE9E9;
+}
+footer{
+    text-align: center;
+    background: #000022;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+}
+.icons img{
+    transition: .1s;
+    height: 45px;
+    width: 50px;
+    padding: 10px;
+}
+footer li{
+  list-style: none;
+}
+@media screen and (max-width:600px) {
+
+    .top-container img{
+    width: 80%;
+    height: 75%;
+    
+}
+  .navbar{
+      padding-right: 5px;
+    
+  }
+  nav .name-title{
+      padding-left: 5px;
+  }
+ .name-title li{
+     font-size: 17px;
+     padding: px 0px;
+ }
+ .nav-options li{
+     font-size: 18px;
+     padding: 5px;
+ }
+}
