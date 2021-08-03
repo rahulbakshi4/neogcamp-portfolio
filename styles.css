@@ -52,6 +52,9 @@ nav .nav-options{
     height: 40%;
 
 }
+.filter{
+    filter: grayscale(100);
+}
 .top-title{
     margin-top: -20px;
     font-style: italic;
