@@ -178,7 +178,7 @@ footer li{
 }
 @media screen and (max-width:600px) {
 
-    .top-container img{
+ .top-container img{
     width: 80%;
     height: 75%;
     
@@ -186,7 +186,10 @@ footer li{
   .navbar{
       padding-right: 5px;
     
-  }
+  }#name{
+    font-size: 3.5rem;
+
+}
   nav .name-title{
       padding-left: 5px;
   }
@@ -198,4 +201,14 @@ footer li{
      font-size: 18px;
      padding: 5px;
  }
+ .project-list{
+    max-width: 90%;
+    padding: 1rem;
+}
+.project-list li{
+margin: 2rem 1rem;
+} 
+.project-list ol{
+    padding: .5rem;
+}
 }
