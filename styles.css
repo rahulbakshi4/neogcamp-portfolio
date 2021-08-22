@@ -60,6 +60,9 @@ nav .nav-options{
     padding : 2rem;
     border-bottom: 1px solid black;
 }
+.top-container p{
+    text-align: center;
+}
 #name{
     font-size: 6rem;
     border-bottom: none;
@@ -187,7 +190,7 @@ footer li{
       padding-right: 5px;
     
   }#name{
-    font-size: 2.75rem;
+    font-size: 2.45rem;
 
 }
   nav .name-title{
