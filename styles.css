@@ -94,7 +94,7 @@ p{
 .tailwind{
     margin-top: 8px;
     }
-.elements{
+.projects{
     text-align: center;
     padding: 40px;
     background: #fff;
@@ -187,7 +187,7 @@ footer li{
       padding-right: 5px;
     
   }#name{
-    font-size: 3.5rem;
+    font-size: 2.75rem;
 
 }
   nav .name-title{
