@@ -94,7 +94,7 @@ p{
 .tailwind{
     margin-top: 8px;
     }
-.projects{
+.elements{
     text-align: center;
     padding: 40px;
     background: #fff;
@@ -141,39 +141,39 @@ footer li{
   list-style: none;
 }
 
-.project-list{
+.element-list{
     max-width: 48rem;
     margin: auto;
     padding: 2rem;
 }
-.project-list ol{
+.element-list ol{
     list-style: none;
 }
 
-.project-list a{
+.element-list  a{
     color:#FBF5F3;
     margin-right: 1rem;
     padding: 0.5rem;
     background-color: #000022;
     border-radius: 0.75rem;
 }
-.project-list a:hover{
+.element-list  a:hover{
     border: 1px solid #000022;
     background-color: #FBF5F3;
     color: #000022;
 
 }
-.project-list li{
+.element-list li{
     background: #EBE9E9;
     padding: 1.5rem;
     margin: 2rem;
     border-radius: 1rem;
     border: 2px solid #000022;
 }
-.project-list li h1{
+.element-list li h1{
     font-size: 2rem;
 }
-.project-list li p{
+.element-list li p{
     font-size: 1.25rem;
 }
 @media screen and (max-width:600px) {
@@ -201,14 +201,14 @@ footer li{
      font-size: 18px;
      padding: 5px;
  }
- .project-list{
+ .element-list{
     max-width: 90%;
     padding: 1rem;
 }
-.project-list li{
+.element-list li{
 margin: 2rem 1rem;
 } 
-.project-list ol{
+.element-list ol{
     padding: .5rem;
 }
 }
